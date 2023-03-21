@@ -1,0 +1,83 @@
+* {
+  background-color: black;
+  color: aliceblue; }
+
+.container {
+  background-color: black; }
+
+body {
+  background-color: black; }
+
+.main_logo {
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle; }
+
+.navbar-brand {
+  width: 10%;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+  vertical-align: middle; }
+  .navbar-brandhover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em); }
+
+.navbar {
+  padding: 0%; }
+
+#navbarSupportedContent {
+  display: block; }
+
+.nav-link {
+  color: aliceblue;
+  font: normal 24px/1.5 "poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: color; }
+  .nav-linkhover {
+    color: goldenrod; }
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; }
+
+.col {
+  width: 300px;
+  margin: 0%;
+  opacity: 0.3; }
+  .colhover {
+    opacity: 1; }
+
+.row {
+  height: 1fr;
+  margin: 0%; }
+
+#grid-gallery {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.main-content {
+  text-align: justify; }
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold; }
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold; }
+
+h3 {
+  text-align: justify;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  font: normal 24px/1.5 "poppins", sans-serif; }
